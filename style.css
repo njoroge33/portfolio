@@ -1,6 +1,9 @@
 .grid {
     font-family: Georgia, 'Times New Roman', Times, serif;
-    background-color: violet;
+    background-image:
+    url("images/sunrise.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
     display: grid;
     width: 99%;
     height: 2000px;
@@ -17,22 +20,15 @@
 }
 
 .a {
-    background-color: red;
+    background-color: hotpink;
     grid-column-start: 1;
     grid-column-end: 3;
     text-align: center;
     font-weight: bold;
     font-size: 100px;
 }
-.b {
-    background-color: hotpink;
-}
-.c {
+.b, .c, .d {
     background-color: aqua;
-}
-
-.d {
-    background-color: aliceblue;
 }
 
 img {
