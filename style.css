@@ -1,0 +1,53 @@
+.grid {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: violet;
+    display: grid;
+    width: 99%;
+    height: 2000px;
+    grid-template-columns: repeat(2, 50%);
+    grid-template-rows: 2fr 1fr 1fr;
+    justify-content: center;
+    grid-row-gap: 10px;
+    grid-column-gap: 10px;
+}
+
+.box {
+    border: 3px solid blue;
+    border-radius: 5px;
+}
+
+.a {
+    background-color: red;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    text-align: center;
+    font-weight: bold;
+    font-size: 100px;
+}
+.b {
+    background-color: hotpink;
+}
+.c {
+    background-color: aqua;
+}
+
+.d {
+    background-color: aliceblue;
+}
+
+img {
+    height: 300px;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.nav {
+    background-color: aquamarine;
+    font-weight: normal;
+    font-size: 30px;
+    font-style: italic;
+    border: 3px solid blue;
+    margin: 30px;
+    border-radius: 10px;
+    padding: 10px;
+}
